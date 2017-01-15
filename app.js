@@ -1,3 +1,6 @@
 const foo = require("./foo")
 
-foo.PrintName("guilty")
+foo.setName("guile")
+foo.setAge(12)
+
+console.log(foo.showAge(), foo.showName())
