@@ -1,13 +1,13 @@
-let name
-let age
-let address
-
 exports.setName = function(name) {
     this.name = name
 }
 
 exports.setAge = function(age) {
     this.age = age
+}
+
+exports.setAddr = function(addr) {
+    this.address = addr
 }
 
 exports.showName = function() {
@@ -18,6 +18,6 @@ exports.showAge = function() {
     return this.age
 }
 
-exports.setAddr = function(addr) {
-    this.address = addr
+exports.showAddr = function() {
+    return this.address
 }
