@@ -1,3 +1,3 @@
 const foo = require("./foo")
 
-foo.PrintName("Guilty")
+foo.PrintName("guilty")
