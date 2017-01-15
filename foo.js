@@ -17,3 +17,7 @@ exports.showName = function() {
 exports.showAge = function() {
     return this.age
 }
+
+exports.setAddr = function(addr) {
+    this.address = addr
+}
