@@ -1,4 +1,3 @@
-console.log("just a test")
-console.log("hehe")
-console.log("sssss")
-alert("alert")
+const foo = require("./foo")
+
+foo.PrintName("Guilty")
